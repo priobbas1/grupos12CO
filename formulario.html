@@ -15,11 +15,18 @@
     </header>
 
     <main>
-      <form>
+      <form action="#" method="get">
         <fieldset>
           <legend>Cubre estos datos para enviar tu noticia</legend>
-          <label for="titulo">Titulo de la noticia</label>
-          <input type="text" text>
+          <p>
+            <label for="title">Título de la noticia</label>
+            <input name="text" id="title"></input>
+          </p>
+          <p>
+            <label for="text">Texto de la noticia</label>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+          </p>
+          <button type="submit">Enviar</button>
         </fieldset>
       </form>
     </main>
